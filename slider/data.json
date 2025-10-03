@@ -1,0 +1,64 @@
+{"products": [
+
+    {
+"id": 1,
+"name": "Pastel Blue",
+"description": "Choose your color",
+"class": "product-pastel-blue"
+    },
+    {
+"id": 2,
+"name": "Sunset Orange",
+"description": "Choose your color",
+"class": "product-sunset"
+    },
+    {
+"id": 3,
+"name": "Mint Green",
+"description": "Choose your color",
+"class": "product-mint"
+    },
+    {
+"id": 4,
+"name": "Lavender Sky",
+"description": "Choose your color",
+"class": "product-lavender"
+    },
+    {
+"id": 5,
+"name": "Coral Reef",
+"description": "Choose your color",
+"class": "product-coral"
+    },
+    {
+"id": 6,
+"name": "Ocean Breeze",
+"description": "Choose your color",
+"class": "product-ocean"
+    },
+    {
+"id": 7,
+"name": "Rose Gold",
+"description": "Choose your color",
+"class": "product-rose"
+    },
+    {
+"id": 8,
+"name": "Purple Haze",
+"description": "Choose your color",
+"class": "product-purple"
+    },
+    {
+"id": 9,
+"name": "Peachy Keen",
+"description": "Choose your color",
+"class": "product-peach"
+    },
+    {
+"id": 10,
+"name": "Lime Twist",
+"description": "Choose your color",
+"class": "product-lime"
+    }
+  ]
+}

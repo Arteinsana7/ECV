@@ -1,0 +1,80 @@
+
+.shoe-box {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+    transition: transform 0.3s ease;
+      object-position: center;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+     overflow: hidden;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.zoom-zone {
+    overflow: hidden;
+    max-width: 1000px;
+    width: 100%;
+    height:auto; 
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#zoom-control {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+}
+
+#zoom-control label {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+#zoom-value {
+    font-size: 16px;
+    color: #007bff;
+    font-weight: bold;
+    min-width: 50px;
+}
+
+
+#zoom-slider {
+    width: 200px;
+    height: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: linear-gradient(to right, #007bff 0%, #007bff 0%, #ddd 0%, #ddd 100%);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+#zoom-slider::-moz-range-thumb {
+    width: 22px;
+    height: 22px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
