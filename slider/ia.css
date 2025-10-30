@@ -1,0 +1,323 @@
+/* ========================================
+   STYLES POUR LA SECTION CHATBOT IA
+   Thème: Brutalist
+   ======================================== */
+
+/* Container principal */
+.api-section {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1em;
+  text-align: center;
+  font-family: monospace;
+}
+
+/* ========================================
+   INPUT AVEC STYLE BRUTALIST
+   ======================================== */
+
+#userInput {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  background-color: #fff;
+  border: 4px solid #000;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 5px 5px 0 #000, 10px 10px 0 #4a90e2;
+  font-family: monospace;
+  margin-right: 10px;
+}
+
+#userInput::placeholder {
+  color: #888;
+  transition: color 0.3s ease;
+}
+
+#userInput:focus::placeholder {
+  color: transparent;
+}
+
+/* @keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+} */
+
+@keyframes focus-pulse {
+  0%, 100% {
+    border-color: #000;
+  }
+  50% {
+    border-color: #4a90e2;
+  }
+}
+
+#userInput:focus {
+  animation: focus-pulse 4s cubic-bezier(0.25, 0.8, 0.25, 1) infinite,
+    glitch 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) infinite;
+}
+
+/* ========================================
+   BOUTON ENVOYER - STYLE BRUTALIST
+   ======================================== */
+
+#btn-send {
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
+  border: 4px solid #000;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 5px 5px 0 #000, 10px 10px 0 #4a90e2;
+  font-family: monospace;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+#btn-send:hover {
+  background-color: #4a90e2;
+  transform: translate(2px, 2px);
+  box-shadow: 3px 3px 0 #000, 6px 6px 0 #4a90e2;
+}
+
+#btn-send:active {
+  transform: translate(5px, 5px);
+  box-shadow: 0 0 0 #000;
+}
+
+/* ========================================
+   ZONE DE RÉPONSE DU CHATBOT
+   ======================================== */
+
+#response {
+  background-color: #fff;
+  border: 4px solid #000;
+  border-radius: 0;
+  padding: 1.5em;
+  min-height: 150px;
+  max-height: 100px;
+  overflow-y: auto;
+  text-align: left;
+  color: #000;
+  line-height: 1.6;
+  margin-top: 1.5em;
+  box-shadow: 5px 5px 0 #000, 10px 10px 0 #4a90e2;
+  font-family: monospace;
+}
+
+/* Placeholder quand vide */
+#response:empty::before {
+  content: 'Les réponses apparaîtront ici...';
+  color: #888;
+  font-style: italic;
+}
+
+/* ========================================
+   MESSAGES DANS LE CHAT
+   ======================================== */
+
+#response .message {
+  margin-bottom: 1em;
+  padding: 0.50em;
+  border-radius: 0;
+  animation: fadeIn 0.3s ease-in;
+  border: 3px solid #000;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Message de l'utilisateur */
+#response .user-message {
+  background: #fff;
+  border: 3px solid #000;
+  margin-left: 2em;
+  text-align: right;
+  box-shadow: 3px 3px 0 #000;
+}
+
+/* Message du bot */
+#response .bot-message {
+  background: #4a90e2;
+  color: #fff;
+  border: 3px solid #000;
+  margin-right: 2em;
+  box-shadow: 3px 3px 0 #000;
+}
+
+/* ========================================
+   SCROLLBAR PERSONNALISÉE
+   ======================================== */
+
+#response::-webkit-scrollbar {
+  width: 12px;
+}
+
+#response::-webkit-scrollbar-track {
+  background: #fff;
+  border: 2px solid #000;
+}
+
+#response::-webkit-scrollbar-thumb {
+  background: #000;
+  border: 2px solid #000;
+}
+
+#response::-webkit-scrollbar-thumb:hover {
+  background: #4a90e2;
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+
+@media (max-width: 768px) {
+  #userInput {
+    max-width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  
+  #btn-send {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  #response .user-message {
+    margin-left: 0.5em;
+  }
+  
+  #response .bot-message {
+    margin-right: 0.5em;
+  }
+}
+
+
+/* ========================================
+   STYLES POUR LE PLAYER MUSICAL
+   ======================================== */
+
+/* Player musical */
+.music-player {
+  background: #fff;
+  border: 4px solid #000;
+  border-radius: 0;
+  padding: 1em;
+  margin: 1em 0;
+  box-shadow: 5px 5px 0 #000, 10px 10px 0 #4a90e2;
+  font-family: monospace;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.music-player-header {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 3px solid #000;
+  text-transform: uppercase;
+}
+
+.music-player-tracks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.track-item {
+  display: flex;
+  align-items: center;
+  padding: 0.75em;
+  background: #f5f5f5;
+  border: 2px solid #000;
+  transition: all 0.2s;
+}
+
+.track-item:hover {
+  background: #4a90e2;
+  color: #fff;
+  transform: translateX(5px);
+  cursor: pointer;
+}
+
+.track-number {
+  font-weight: bold;
+  margin-right: 1em;
+  min-width: 2em;
+}
+
+.track-info {
+  flex: 1;
+}
+
+.track-info strong {
+  display: block;
+  margin-bottom: 0.2em;
+}
+
+/* Animation pour le player */
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.music-player {
+  animation: slideIn 0.4s ease-out;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .music-player {
+    padding: 0.75em;
+  }
+  
+  .track-item {
+    padding: 0.5em;
+    font-size: 0.9em;
+  }
+  
+  .track-number {
+    min-width: 1.5em;
+  }
+}

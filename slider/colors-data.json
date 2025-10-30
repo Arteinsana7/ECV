@@ -1,0 +1,104 @@
+{
+  "colors": [
+    {
+      "id": "1",
+      "name": "Pastel Blue",
+      "description": "Une couleur douce et apaisante qui évoque le ciel clair et la tranquillité. Elle est souvent associée à la sérénité, la fraîcheur et la créativité. Cette teinte est idéale pour créer une atmosphère relaxante dans n'importe quel espace.",
+      "class": "product-pastel-blue",
+      "associations": ["sérénité", "fraîcheur", "créativité"],
+      "mood": "relaxante",
+      "gradient": "linear-gradient(#eec0c6 0%, #7ee8fa 74%)",
+      "colors": ["#eec0c6", "#7ee8fa"]
+    },
+    {
+      "id": "2",
+      "name": "Sunset Orange",
+      "description": "Une couleur chaude et énergique qui capture la beauté d'un coucher de soleil. Elle évoque la chaleur, la passion et l'optimisme. Parfaite pour apporter une touche de dynamisme et de vie.",
+      "class": "product-sunset",
+      "associations": ["chaleur", "passion", "optimisme"],
+      "mood": "énergisante",
+      "gradient": "linear-gradient(315deg, #ff9a56 0%, #ff6a88 74%)",
+      "colors": ["#ff9a56", "#ff6a88"]
+    },
+    {
+      "id": "3",
+      "name": "Mint Green",
+      "description": "Une teinte fraîche et revitalisante qui rappelle la nature et le renouveau. Elle symbolise la croissance, l'harmonie et l'équilibre. Idéale pour créer un espace apaisant et ressourçant.",
+      "class": "product-mint",
+      "associations": ["nature", "renouveau", "harmonie"],
+      "mood": "rafraîchissante",
+      "gradient": "linear-gradient(315deg, #a8edea 0%, #fed6e3 74%)",
+      "colors": ["#a8edea", "#fed6e3"]
+    },
+    {
+      "id": "4",
+      "name": "Lavender Sky",
+      "description": "Une couleur élégante et mystérieuse qui évoque les ciels crépusculaires. Elle incarne la spiritualité, la sagesse et la sophistication. Parfaite pour une ambiance raffinée et contemplative.",
+      "class": "product-lavender",
+      "associations": ["spiritualité", "sagesse", "mystère"],
+      "mood": "contemplative",
+      "gradient": "linear-gradient(315deg, #d299c2 0%, #fef9d7 74%)",
+      "colors": ["#d299c2", "#fef9d7"]
+    },
+    {
+      "id": "5",
+      "name": "Coral Reef",
+      "description": "Une teinte vibrante et joyeuse qui capture l'essence de la vie marine. Elle symbolise la convivialité, la chaleur humaine et l'enthousiasme. Idéale pour créer une atmosphère accueillante.",
+      "class": "product-coral",
+      "associations": ["convivialité", "joie", "vitalité"],
+      "mood": "accueillante",
+      "gradient": "linear-gradient(315deg, #fbc2eb 0%, #a6c1ee 74%)",
+      "colors": ["#fbc2eb", "#a6c1ee"]
+    },
+    {
+      "id": "6",
+      "name": "Ocean Breeze",
+      "description": "Une couleur profonde et apaisante comme les vagues de l'océan. Elle évoque la liberté, la confiance et le calme. Parfaite pour un espace de méditation et de réflexion.",
+      "class": "product-ocean",
+      "associations": ["liberté", "confiance", "profondeur"],
+      "mood": "méditative",
+      "gradient": "linear-gradient(315deg, #4facfe 0%, #00f2fe 74%)",
+      "colors": ["#4facfe", "#00f2fe"]
+    },
+    {
+      "id": "7",
+      "name": "Rose Gold",
+      "description": "Une teinte élégante et sophistiquée qui allie douceur et luxe. Elle symbolise la féminité, le raffinement et l'élégance moderne. Idéale pour une ambiance chic et contemporaine.",
+      "class": "product-rose",
+      "associations": ["élégance", "féminité", "luxe"],
+      "mood": "sophistiquée",
+      "gradient": "linear-gradient(315deg, #f093fb 0%, #f5576c 74%)",
+      "colors": ["#f093fb", "#f5576c"]
+    },
+    {
+      "id": "8",
+      "name": "Purple Haze",
+      "description": "Une couleur intense et captivante qui stimule l'imagination. Elle évoque la créativité, le rêve et l'inspiration. Parfaite pour un espace dédié à l'art et à l'innovation.",
+      "class": "product-purple",
+      "associations": ["créativité", "imagination", "inspiration"],
+      "mood": "inspirante",
+      "gradient": "linear-gradient(315deg, #4e54c8 0%, #8f94fb 74%)",
+      "colors": ["#4e54c8", "#8f94fb"]
+    },
+    {
+      "id": "9",
+      "name": "Peachy Keen",
+      "description": "Une teinte douce et réconfortante comme une pêche mûre. Elle symbolise la douceur, la tendresse et le bonheur simple. Idéale pour créer une atmosphère chaleureuse et bienveillante.",
+      "class": "product-peach",
+      "associations": ["douceur", "tendresse", "réconfort"],
+      "mood": "réconfortante",
+      "gradient": "linear-gradient(315deg, #ffecd2 0%, #fcb69f 74%)",
+      "colors": ["#ffecd2", "#fcb69f"]
+    },
+    {
+      "id": "10",
+      "name": "Lime Twist",
+      "description": "Une couleur vibrante et énergisante qui apporte une touche de pep's. Elle évoque la jeunesse, la vitalité et le dynamisme. Parfaite pour stimuler la créativité et l'action.",
+      "class": "product-lime",
+      "associations": ["vitalité", "jeunesse", "dynamisme"],
+      "mood": "stimulante",
+      "gradient": "linear-gradient(315deg, #96fbc4 0%, #f9f586 74%)",
+      "colors": ["#96fbc4", "#f9f586"]
+    }
+  ]
+}
